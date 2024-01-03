@@ -14,7 +14,7 @@ export const ContactListItem = ({ name, number, id }) => {
         <Avatar
           className="avatar"
           alt={name}
-          src="../../images/bezymyannyjapapoo.png"
+          src="../../images/neon_photo.png"
         />
       </Stack>
       <span className="item">{name} </span>

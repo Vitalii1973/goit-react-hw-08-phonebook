@@ -1,15 +1,13 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { register } from '..//../redux/auth/operations';
-import {} from './RegisterForm.css'; // Замініть пустий import на реальний, якщо це не помилка
+import { register } from '../../redux/auth/operations';
+import './RegisterForm.css';
 import { NavLink } from 'react-router-dom';
 
 export const RegisterForm = () => {
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    // Логіка з побічним ефектом тепер тут
-  }, []);
+  useEffect(() => {}, []);
 
   const handleSubmit = e => {
     e.preventDefault();
