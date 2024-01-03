@@ -1,0 +1,133 @@
+@media screen and (min-width: 320px) {
+  .phonebook-form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .input-contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .phonebook-title {
+    font-size: 24px;
+    color: rgb(20, 16, 224);
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .form-title-cont {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(28, 44, 221);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .namebtn {
+    display: inline-flex;
+    outline: 0;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #7579ff;
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    vertical-align: middle;
+    justify-content: center;
+  }
+
+  .namebtn:hover,
+  .namebtn:focus {
+    background-color: #b224ef;
+    border: 1px solid #fff;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .phonebook-form {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .input-contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .namebtn {
+    display: inline-flex;
+    outline: 0;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #7579ff;
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 120px;
+    height: 30px;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    vertical-align: middle;
+    justify-content: center;
+  }
+
+  .namebtn:hover,
+  .namebtn:focus {
+    background-color: #b224ef;
+    border: 1px solid #fff;
+  }
+
+  .phonebook-title {
+    font-size: 60px;
+    color: rgb(20, 9, 238);
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+
+  .form-title-cont {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(226, 226, 16);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    text-shadow: 0 0 30px rgb(14, 10, 232);
+  }
+}

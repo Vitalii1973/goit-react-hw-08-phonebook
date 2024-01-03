@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  color: #ebd232;
+}
+
+.form-reg {
+  max-width: 320px;
+  padding: 15px;
+  margin: 50px auto 30px;
+  background: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(to bottom,
+      #58bee7,
+      #ceef24);
+  /* Standard syntax */
+  background: -moz-linear-gradient(top, #58bee7,
+      #ceef24);
+  /* Firefox */
+  background: -webkit-linear-gradient(top, #58bee7, #ceef24);
+  /* Webkit (Chrome, Safari) */
+}
+
+.form-title {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: block;
+}
+
+.form-control {
+  font-size: 16px;
+  color: #0c0c0c;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: 0 0;
+  padding: 0 5px 0 5px;
+  margin-top: 10px;
+}
+
+.row-form-label {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: block;
+}
+
+.row-form {
+  margin: 15px;
+}
+
+.btn-primary {
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  height: 30px;
+  border: 1px solid #7579ff;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fff;
+  cursor: pointer;
+  background: #07d0ea;
+  padding: 1px 5px;
+  width: 100px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #2b24ef;
+  border: 1px solid #fff;
+}
+
+.form-check-label {
+  font-size: 12px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.acount {
+  font-size: 10px;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.acount-nav {
+  padding-left: 3px;
+}

@@ -1,0 +1,111 @@
+@media screen and (min-width: 320px) {
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    -webkit-box-shadow: -6px -8px 15px -3px rgba(44, 43, 43, 1);
+    -moz-box-shadow: -6px -8px 15px -3px rgba(44, 43, 43, 1);
+    box-shadow: -6px -8px 15px -3px rgba(44, 43, 43, 1);
+  }
+
+  .item {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    line-height: 1.5;
+    width: 300px;
+    text-align: center;
+  }
+
+  .deletebtn {
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #7579ff;
+    margin: 10px;
+    font-size: 16px;
+    padding: 1px 5px;
+    width: 120px;
+    height: 30px;
+  }
+
+  .deletebtn:hover,
+  .deletebtn:focus {
+    background-color: #b224ef;
+    border: 1px solid #fff;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .item {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    line-height: 1.5;
+    width: 450px;
+    text-align: center;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    -webkit-box-shadow: -6px -8px 15px -3px rgba(44, 43, 43, 1);
+    -moz-box-shadow: -6px -8px 15px -3px rgba(44, 43, 43, 1);
+    box-shadow: -6px -8px 15px -3px rgba(44, 43, 43, 1);
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .deletebtn {
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #7579ff;
+    margin: 10px;
+    font-size: 16px;
+    padding: 1px 5px;
+    width: 120px;
+    height: 30px;
+  }
+
+  .deletebtn:hover,
+  .deletebtn:focus {
+    background-color: #b224ef;
+    border: 1px solid #fff;
+  }
+}

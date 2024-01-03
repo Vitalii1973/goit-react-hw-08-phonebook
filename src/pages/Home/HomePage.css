@@ -1,0 +1,36 @@
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 90vh;
+  font-size: 70px;
+  background-image: linear-gradient(45deg, violet, indigo, blue, green, orange, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 15px;
+  animation: flash 5s infinite ease-in-out;
+  transition: text-shadow 0.5s ease-in-out;
+}
+
+body {
+  background-image: url(../../images/depositphotos_podium.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+@keyframes flash {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,34 @@
+@media screen and (min-width: 320px) {
+  .contact-contacts {
+    font-size: 24px;
+    color: rgb(19, 12, 236);
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(19, 12, 236, 0.8);
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .contact-contacts {
+    font-size: 30px;
+    color: #120af5;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0 0 15px rgba(18, 10, 245, 0.8);
+  }
+
+  .contact-contacts {
+    font-size: 60px;
+    color: rgb(21, 9, 241);
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+
+  body {
+    background-image: url(..//../images/depositphotos_podium.jpg);
+    background-size: cover;
+  }
+}
